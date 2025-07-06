@@ -1,4 +1,4 @@
-# ViTAE-AVSS
+# Optimize_AVSS
 
 This repository contains implementations for audio-visual speech synthesis and voice conversion using deep learning models.
 
@@ -12,6 +12,7 @@ To install all required dependencies:
 pip install -r requirements.txt
 Note: This project uses the VoxCeleb2 and LRS3-TED datasets.
 
+# Training
 To train the voice conversion model, run:
 python train_audio.py --data_path PATH_TO_TRAINING_DATA --experiment_name EXPERIMENT_NAME --save_freq SAVE_FREQ --test_path PATH_TO_TEST_AUDIO --batch_size BATCH_SIZE --save_dir PATH_TO_SAVE_MODEL
 
